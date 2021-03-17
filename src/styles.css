@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  row-gap: 1rem;
+  margin: 1rem;
+}
+
+button {
+  max-width: 20vw;
+  margin: auto;
+  padding: 0.5rem 0.75rem;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+input {
+  padding: 0.25rem 0.5rem;
+  max-width: 50vw;
+  margin: auto;
+}
